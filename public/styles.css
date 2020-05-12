@@ -1,7 +1,8 @@
-.page-container {
+/* .pageC {
   display: flex;
   margin-left: 50px;
   margin-right: 50px;
+  width: 70%;
 }
 
 .column1 {
@@ -14,5 +15,27 @@
 
 #Carousel {
   padding-bottom: 30px;
+} */
+
+#header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
+.proxy-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.proxy-column1 {
+  width: 65%;
+}
+.proxy-column2 {
+  width: 35%;
+}
+#Carousel {
+  padding-bottom: 60px;
+}
+
 
