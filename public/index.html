@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://kit.fontawesome.com/c57fca7a66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:5000/styles.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:4200/styles/style.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:9000/style.css">
@@ -10,9 +11,15 @@
   </head>
   <body>
     <div id="header"></div>
-    <div id="Carousel"></div>
-    <div id="reviewz"></div>
-    <div id="details"></div>
+    <div class="page-container">
+      <div class="column1">
+        <div id="Carousel"></div>
+        <div id="reviewz"></div>
+      </div>
+      <div class="column2">
+        <div id="details"></div>
+      </div>
+    </div>
     <div id="suggested"></div>
     <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
     <script src="http://localhost:5000/bundle.js"></script>
